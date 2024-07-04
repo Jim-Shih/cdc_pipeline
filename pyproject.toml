@@ -1,0 +1,18 @@
+[tool.black]
+line-length = 88
+
+
+[tool.poetry]
+name = "cdc-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["Jimshih <m11001107@ntust.edu.tw>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
